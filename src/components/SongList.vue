@@ -4,9 +4,7 @@
       <li
           class="item"
           v-for="(item, index) in data"
-          :key="item.id"
-          @click="songClick(item)"
-      >
+          :key="item.id">
         <p class="index">{{ index + 1 }}</p>
         <div class="content">
           <p class="name">{{ item.name }}</p>
